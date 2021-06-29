@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-upload-import-csv-file-to-mongodb",
+  "version": "1.0.0",
+  "description": "Nodejs Upload Import CSV File/Data to MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "CSV-File",
+    "MongoDB",
+    "Upload-File",
+    "Multer",
+    "Csv2Json"
+  ],
+  "author": "grokonez.com",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "multer": "^1.4.1"
+  }
+}
